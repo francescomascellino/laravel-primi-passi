@@ -7,7 +7,8 @@
 
     <title>Laravel Primi Passi</title>
 
-    <link rel="icon" type="image/x-icon" href="/public/favicon.ico">
+    <!-- IN LARAVEL FAVICON GETS AUTOMATICALLY LINKED IF IN THE PUBLIC FOLDER! -->
+    <!-- <link rel="icon" href="😁"> -->
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
