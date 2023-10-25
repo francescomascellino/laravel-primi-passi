@@ -2,28 +2,45 @@
 
 ## Create new Laraval 10 Project:
 
+
 ```
 composer create-project laravel/laravel [folder-name]
 ```
 
 ### or use Composer installer:
 
-laravel new [folder-name] --git <- Use the last commend to initialize local git repo
+
+```
+laravel new [folder-name] --git (<- Use the last command to automatically initialize a local git repo)
+```
 
 ## Manually initialize the repo:
 
+Head to the project directory
+```
 cd [folder-name]
+```
 
-git init <- initialize repo
+Initialize a local repo
+```
+git init
+```
 
-git add . <- add all files to stage area
+Add all files to stage area
+```
+git add .
+```
 
-git commit -m"initial commit" <- first commi and message
+First commit and message
+```
+git commit -m"initial commit"
+```
 
 ## Ppush to a remote repo:
-
+```
 git remote add origin [repolink.git]
 
 git branch -M main
 
 git push -u origin main
+```
