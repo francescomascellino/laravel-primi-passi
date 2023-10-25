@@ -31,3 +31,8 @@ Route::get('/about', function () {
     $text = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem officiis necessitatibus atque repudiandae delectus dicta earum ratione aut sed similique nihil illum quos laborum, aliquam quo repellendus numquam iure. Saepe.';
     return view('about', compact('title', 'text'));
 });
+
+// PARTIAL VIEWS
+Route::get('/Partials/head', function () {
+    return view('head');
+});
