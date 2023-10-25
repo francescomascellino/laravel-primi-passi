@@ -24,7 +24,8 @@
     <header>
         <nav class='navbar navbar-expand-lg bg-body-tertiary'>
             <div class='container'>
-                <a class='navbar-brand' href='#'>Laravel</a>
+
+                <a class='navbar-brand' href='/'>Laravel</a>
 
                 <div class='navbar-nav ms-auto'>
                     <a class='nav-link active' aria-current='page' href='/'>Home</a>
