@@ -7,7 +7,7 @@
 composer create-project laravel/laravel [folder-name]
 ```
 
-### or use Composer installer:
+### ...or use Composer installer:
 
 
 ```
