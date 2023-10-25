@@ -36,7 +36,7 @@ First commit and message
 git commit -m"initial commit"
 ```
 
-## Ppush to a remote repo:
+## Push to a remote repo:
 ```
 git remote add origin [repolink.git]
 
