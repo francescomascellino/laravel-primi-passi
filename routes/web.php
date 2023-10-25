@@ -21,15 +21,9 @@ Route::get('/', function () {
 });
 
 Route::get('/lorem', function () {
-    $title = 'This is only anoter lorem';
-    $text = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem officiis necessitatibus atque repudiandae delectus dicta earum ratione aut sed similique nihil illum quos laborum, aliquam quo repellendus numquam iure. Saepe.';
-    return view('lorem', compact('title', 'text'));
-});
-
-Route::get('/about', function () {
     $title = 'This is only another lorem';
     $text = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem officiis necessitatibus atque repudiandae delectus dicta earum ratione aut sed similique nihil illum quos laborum, aliquam quo repellendus numquam iure. Saepe.';
-    return view('about', compact('title', 'text'));
+    return view('lorem', compact('title', 'text'));
 });
 
 // PARTIAL VIEWS
