@@ -45,7 +45,6 @@
                         <h1 class="text-center">{{$title}}</h1>
                     </div>
                     <div class="card-body">
-                        <h2>{{$title_sub}}</h2>
                         <p>{{$text}}</p>
                     </div>
                 </div>
