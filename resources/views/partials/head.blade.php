@@ -28,7 +28,8 @@
                 <a class='navbar-brand' href='/'>Laravel</a>
 
                 <div class='navbar-nav ms-auto'>
-                    <a class='nav-link active' aria-current='page' href='/'>Home</a>
+                    {{-- // E' POSSIBILE PASSARE TRAMITE LA FUNZIONE route() IL NOME DELLA ROUTE COME DESTINAZIONE DI UN URL --}}
+                    <a class='nav-link active' aria-current='page' href="{{ route('home') }}">Home</a>
                     <a class='nav-link' href='/lorem'>Useless Lorem Page</a>
                 </div>
 

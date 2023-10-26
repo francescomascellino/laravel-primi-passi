@@ -1,4 +1,6 @@
-@include('/Partials/head')
+{{-- DOT NOTATION ANZICHE' / --}}
+
+@include('partials.head')
 
 <div class="container">
 
